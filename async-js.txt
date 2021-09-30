@@ -1,0 +1,10 @@
+js is a single threaded language meaning it can only execute one command at a time and proceeds in order, one at a time , after one another
+
+hence synchronous code can block the code because some functions may take some time to execute and multiple such functions can stall the program for long enough
+
+async basically means start something now and finish it later
+the func executes now in a diff part and the thread resumes
+
+fetch the data, take the response return response.json, then, catch locks
+
+async functions always return promises
